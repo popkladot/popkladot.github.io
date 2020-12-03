@@ -1,3 +1,7 @@
+.container{
+  justify-content: center;
+}
+
 .bg-pop{
   background-color: #AA1E22;
 }
