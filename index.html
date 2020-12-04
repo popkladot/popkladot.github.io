@@ -20,45 +20,49 @@
 
   <body>
 
-    <!-- NAV BAR -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-pop">
-      <div class="container">
-        
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-          <!-- <span class="fas fa-bars"></span> -->
-        </button>
+    <!-- NAVBAR -->
+    <section >
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-pop">
+        <div class="container">
+          
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            <!-- <span class="fas fa-1x fa-bars"></span> -->
+          </button>
 
-        <a class="navbar-brand rounded mx-auto d-block" href="#">
-          <img src="img/logo-dark.svg" height="30" alt="popkladot" loading="lazy">
-        </a>
-        
-        <i class='fab fa-whatsapp navbar-toggler nav-pop' style='font-size:30px;'></i>
-        
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav ml-auto">
-            <div class="dropdown-divider"></div>
-            <a class="nav-link active text-center" href="#">Home <span class="sr-only">(current)</span></a>
-            <div class="dropdown-divider"></div>
-            <a class="nav-link text-center" href="#">About</a>
-            <div class="dropdown-divider"></div>
-            <a class="nav-link text-center" href="#">Gallery</a>
-            <div class="dropdown-divider"></div>
-            <a class="nav-link text-center" href="#">Contact</a>
+          <a class="navbar-brand rounded mx-auto d-block" href="#">
+            <img src="img/logo-dark.svg" id="logo" height="30" alt="popkladot" loading="lazy">
+          </a>
+          
+          <i class='fab fa-1x fa-whatsapp navbar-toggler' style='font-size:30px;'></i>
+          
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto" id="kolaps">
+              <div class="dropdown-divider"></div>
+              <a class="nav-link active text-center" href="#">Home <span class="sr-only">(current)</span></a>
+              <div class="dropdown-divider"></div>
+              <a class="nav-link text-center" href="#">About</a>
+              <div class="dropdown-divider"></div>
+              <a class="nav-link text-center" href="#">Gallery</a>
+              <div class="dropdown-divider"></div>
+              <a class="nav-link text-center" href="#">Contact</a>
+            </div>
           </div>
         </div>
-      </div>
-      
-    </nav>
+      </nav>
+    </section>
+    <!-- NAVBAR END -->
     
-
-    <div class="jumbotron jumbotron-fluid jumbot">
-      <div class="container">
-        <h1 class="display-4">Fluid jumbotron</h1>
-        <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+    <!-- JUMBOTRON -->
+    <section>
+      <div class="jumbotron jumbotron-fluid jumbot">
+        <div class="container">
+          <h1 class="display-4">Fluid jumbotron</h1>
+          <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+        </div>
       </div>
-    </div>
-
+    </section>
+    <!-- JUMBOTRON END -->
     
 
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
@@ -81,9 +85,10 @@
     -->
 
     <!-- Font Awesome 5 -->
-    <script src="https://kit.fontawesome.com/yourcode.js"></script>
-    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <script src="https://kit.fontawesome.com/0fa20bd176.js" crossorigin="anonymous"></script>
+
+    <!-- My Script -->
+    <script src='script.js'></script>
 
   </body>
 </html>
