@@ -6,7 +6,31 @@
 
 .bg-pop{
   background-color: rgba(170, 30, 34, 1);
-  height: 50px !important;
-  -webkit-transition-duration: 0.5s;
-          transition-duration: 0.5s;
+}
+
+.jumbot{
+  height: 500px;
+  margin-top: 30px;
+}
+
+.navbar-toggler {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: transparent;
+  border: none !important;
+}
+
+.navbar-toggler:hover, .navbar-toggler:focus {
+  text-decoration: none;
+}
+
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  content: "";
+  background: no-repeat center center;
+  background-size: 100% 100%;
 }
