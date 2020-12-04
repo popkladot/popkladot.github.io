@@ -11,12 +11,12 @@
           transition-duration: 0.5s;
 }
 
- .bg-pop-small{
+ /* .bg-pop-small{
   background-color: rgba(170, 30, 34, 1);
   height: 40px !important;
   -webkit-transition-duration: 0.5s;
           transition-duration: 0.5s;
-}
+} */
 
 .jumbot{
   height: 500px;
